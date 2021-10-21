@@ -71,14 +71,23 @@ body{
 }
 
 #titulo-tabela{
-    width: 1197px;
+   
     color: white;
-    background: #212529;
+    background-color: #212529 !important;
     margin-bottom: 0px;
     border-bottom: 3px  rgb(9, 255, 0);
     text-align: center;
     font-size: 30px;
     
+}
+#titulo-tabela h1{
+
+    color: white;
+
+}
+.tabela-h{
+    color:  rgb(9, 255, 0);
+    font-size: large;
 }
 
 .box-position {
@@ -126,4 +135,8 @@ figcaption{
 }
 .texto-desc{
     font-style: italic;
+}
+input, textarea{
+    
+    box-shadow: none !important;
 }
