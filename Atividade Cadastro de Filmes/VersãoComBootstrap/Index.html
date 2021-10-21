@@ -13,7 +13,10 @@
   <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="https://media.istockphoto.com/vectors/bended-line-letter-logotype-l-vector-id1231977703?k=20&m=1231977703&s=612x612&w=0&h=zEZkIjIfwkjbZl14NVSEeDYgrSm6xF9IJf4riSMbvgs=" alt="" width="40" height="34" class="d-inline-block align-text-top">
+        <img src="https://media.istockphoto.com/vectors/bended-line-letter-logotype-l-vector-id1231977703?k=20&m=1231977703&s=612x612&w=0&h=zEZkIjIfwkjbZl14NVSEeDYgrSm6xF9IJf4riSMbvgs=" alt="Logo" 
+        width="40" 
+        height="34" 
+        class="d-inline-block align-text-top">
         ocadora Popular
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,18 +30,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Biblioteca</a>
           </li>
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li> -->
-          <li class="nav-item">
+           <li class="nav-item">
             <a class="nav-link" href="#">Sua Conta</a>
           </li>
         </ul>
@@ -50,31 +42,73 @@
     </div>
   </nav>
   <main>
-    <section class="imputs">      
+    <section class="inputs">      
       
+      <div class="cabecalho">
+        Nome do Filme
+    </div>
       <div class="input-group flex-nowrap">
-        <span class="input-group-text" id="addon-wrapping">Digite o título do filme</span>
-        <input type="text" class="size form-control"  aria-label="Username" aria-describedby="addon-wrapping">
+      <input type="text" class="size form-control"  aria-label="Username" aria-describedby="addon-wrapping">
       </div>
+      <div class="cabecalho">
+        Ano de lançamento
+    </div>
       <div class="input-group flex-nowrap">
-        <span class="input-group-text" id="addon-wrapping">Ano de Lançamento</span>
+      
         <input type="number" class="size form-control"  aria-label="Username" aria-describedby="addon-wrapping">
       </div>
-      <div class="input-group flex-nowrap">
-        <span class="input-group-text" id="addon-wrapping">Digite a Sinopse</span> 
-        <input type="text" class="size form-control" aria-label="Username" aria-describedby="addon-wrapping">
-      </div>
+      <div class="cabecalho">
+        Sinopse
+    </div>
+    <div class="input-group">
+      <textarea class="form-control" aria-label="With textarea"></textarea>
+    </div>
+      <div class="cabecalho">
+        Capa do Filme
+    </div>
       <div class="input-group mb-3">
-        <input type="file" class="form-control" id="inputGroupFile02">          
-        <label class="input-group-text" id="botao-up" for="inputGroupFile02">Upload</label>
-        </div>
-      
+        <input type="file" class="form-control" id="inputGroupFile02">
+      </div>          
+       
+      <div class="button-position btn-group" role="group" aria-label="Basic example">
+
+        <button type="button" class="button-collor btn btn-primary">Cadastrar</button>
+        
+      </div>
     </section>
 
+    <aside class = "contorno">
+      <div class="box-position">
+        <h2>Destaque da Semana</h2>
+        
+        <h5>Série Vingaça Brutual com Steve Magal</h5>
+        <p style="font-style: italic">
+          
+          -Steve Magal é o maior ator e lutador de todos os tempos. Quando criança, ele foi abandonado pela mãe numa fila de supermercado e precisou sobreviver se alimentando da própria saliva. "
+
+        </p>
+
+        <figure class="imagem">
+        <p>
+          <img class="alinhamento-img" src="https://biggreenpillow.com/work/assets/images/magal-char-1400x1278-25-2.png"
+          height="200px"
+          width="250px"
+           alt="">
+           <figcaption>Steve Magal Detonando</figcaption>
+      </figure>
+
+      </div>
+    </aside>
+    
+    
     <section class="tabela">
       <table class="table table-dark table-hover">
         <thead>
           <tr>
+            <tr><h1 id="titulo-tabela">FILMES CADASTRADOS</h1></tr>
+          </tr>
+     
+          <tr>         
             <th scope="col">Título</th>
             <th scope="col">Ano</th>
             <th scope="col">Sinopse</th>
@@ -82,6 +116,7 @@
           </tr>
         </thead>
         <tbody>
+          
           <tr>
             <th scope="row">O Podereso Chefão</th>
             <td>1972</td>

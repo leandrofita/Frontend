@@ -1,26 +1,129 @@
-.imputs{
+body{
+    overflow-x: hidden;
+}
+.inputs{
     margin-left: 50px  ;
     margin-top: 50px;
-    height: 220px;
+    height: 400px;
     width: 500px;
-    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.541) ;
     padding: 15px;
-    border: 5px solid;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        rgb(9, 255, 0), 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+   
+    
     
     
 }
 .imputs input, span, label {
     
     margin-bottom: 5px;
-    
-   
+
+}
+
+#sinopse-size{
+    height: 100px;
 }
 
 .tabela{
-    margin: 50px 10px 100px 50px;
+    margin: -300px 10px 100px 50px;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        rgb(9, 255, 0), 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+    
    
 }
 
 .body-color{
     background: rgb(63, 63, 63);
+}
+.cabecalho{
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(240, 237, 232);
+}
+
+.button-position{
+
+    margin-left: 180px;
+   
+}
+
+.button-collor {
+    background-color: black;
+    border: 1px;
+    border-color: rgba(43, 43, 43, 0.678);
+}
+.button-collor:hover{
+    background-color: #212529;
+
+}
+
+#titulo-tabela{
+    width: 1197px;
+    color: white;
+    background: #212529;
+    margin-bottom: 0px;
+    border-bottom: 3px  rgb(9, 255, 0);
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.box-position {
+
+    display:flex;
+    position: relative;
+    top:-400px;
+    left: 650px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.541) ;
+    height: 450px;
+    width: 600px;
+    flex-direction: column;
+    padding: 1rem;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        rgb(9, 255, 0), 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+
+}
+
+.btn-outline-success{
+    color: linear-gradient(
+        to bottom, 
+        rgb(9, 255, 0), 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+}
+
+figcaption{
+    margin-left: 190px;
+    margin-top: -10px;
+    font-style: italic;
+    font-size: smaller;
+
+}
+
+.alinhamento-img {
+    margin-left: 180px;
+}
+.texto-desc{
+    font-style: italic;
 }
