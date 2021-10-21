@@ -1,0 +1,26 @@
+.imputs{
+    margin-left: 50px  ;
+    margin-top: 50px;
+    height: 220px;
+    width: 500px;
+    background-color: gray;
+    padding: 15px;
+    border: 5px solid;
+    
+    
+}
+.imputs input, span, label {
+    
+    margin-bottom: 5px;
+    
+   
+}
+
+.tabela{
+    margin: 50px 10px 100px 50px;
+   
+}
+
+.body-color{
+    background: rgb(63, 63, 63);
+}
