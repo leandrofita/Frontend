@@ -1,0 +1,230 @@
+:root {
+	--primary-color: #40026c;
+	--box-color: rgba(0, 0, 0, 0.616);
+}
+
+body {
+	background-image: linear-gradient(to right, #20094b, #6441a5, #260442);
+	overflow-x: hidden;
+}
+
+/* NAV */
+.bg-nav-costum {
+	background-color: var(--primary-color);
+}
+
+.bg-personal {
+	background-color: rgb(55, 121, 197);
+}
+
+.bg-personal:hover{
+	color: aliceblue;
+	background-color: #8268b3;
+}
+
+.btn-outline-personal {
+	color: rgb(255, 255, 255);
+	border-color: rgb(255, 255, 255);
+}
+
+/* .container-nav a{
+	margin-right: 50px;
+	margin-left: 30px;
+} */
+
+#logo > a{
+	margin-left: 45px;
+}
+/* MID BANNER */
+#banner {
+	height: 350px;
+	background-color: var(--box-color);
+	color: white;
+	padding-top: 35px;
+	padding-left: 25px;
+}
+
+#text {
+	word-wrap: break-word;
+	width: 650px;
+}
+
+#text h1 {
+	font-size: 32px;
+	margin-bottom: 5px;
+}
+
+#text h2 {
+	font-size: 27px;
+}
+
+#text p{
+	margin-top: 25px;
+}
+
+#btn-confia{
+	margin-top: 20px;
+}
+
+#logo_composto {
+
+	display: flex;
+	position: relative;
+	height: 320px;
+	width: 310px;
+	left: 910px;
+	top: -280px;
+	
+}
+
+/* EDIÇÃO CARD */
+section > h1{
+	color: white;
+	text-align: center;
+}
+
+.edit-card {
+	margin: 50px 280px;
+	justify-content: space-between;
+}
+
+.bg-card {
+	background-color: var(--primary-color);
+}
+
+.btn-card {
+	color: white;
+}
+
+.btn-card:hover {
+	color: white;
+	box-shadow: 1px 4px 10px black;
+}
+
+.btn-mais {
+	margin-bottom: 15px;
+}
+
+/* #box-bottom{
+	background-color: var(--box-color);
+	height: 500px;
+	right: 108px;
+	width: 600px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+} */
+.anuncios{
+
+	width: 38%;
+	margin-left: 31%;
+	align-items: center;
+	margin-bottom: 20%;
+	margin-top: 30px;
+	border-radius: 10px;
+	
+	}
+
+#box-bottom h1 {
+	color: white;
+	text-align: center;
+	padding-top: 75px;
+}
+
+
+/* COLUNA */
+.container-footer{
+	align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+	background-color: rgba(22, 22, 22, 0.801);
+	height: 380px;
+	padding: 75px 25px;
+	margin-top: 100px;
+}
+
+.container-footer h4{
+	text-transform: uppercase;
+	color: white;
+	margin-bottom: 5px;
+}
+
+.container-footer ul li{
+	margin-top: 15px;
+	list-style: none;
+}
+
+.container-footer a{
+	text-decoration: none;
+}
+
+#coluna2{
+	display: flex;
+	position: absolute;
+	right: 850px;
+}
+
+#coluna3{
+	display: flex;
+	position: absolute;
+	right: 600px;
+}
+
+#coluna4{
+	display: flex;
+	position: absolute;
+	right: 100px;
+}
+
+#coluna4 li{
+	display: inline;
+}
+
+/* POP UP */
+
+.mostrar{
+	display: flex;
+	position: relative;
+	margin-left: 50px;
+	top: -1750px;
+	height: 330px;
+	width: 330px;
+	gap: 50px;	
+}
+
+.esconde{
+	display: none;
+	position: relative;
+	margin-left: 50px;
+	top: -1750px;
+	height: 330px;
+	width: 330px;
+	gap: 50px;
+}
+
+.xis{
+	color: white;
+	background-color: black;
+	height: 30px;
+	border-style: none;
+}
+
+.banners{
+	display: flex;
+    justify-content:center;
+    align-items: center;
+	height: 200px;
+	
+}
+
+
+.add3{
+	margin-right: 10px;
+	margin-left: 18px;
+	
+}
+
+#logo-coop{
+	margin-top: 20px;
+	margin-left: 155px;
+}
